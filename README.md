@@ -7,7 +7,7 @@ A biblioteca foi construida usando NodeJS v8.x e Ubuntu 16.04
 ## Variaveis de ambiente
 A configuração do endereço a ser acessado para utilização da API deve ser feita utilizando variaveis de ambiente do sistema.
 
-- API_URL: usuário de acesso ao banco
+- API_URL: endereço de acesso da api
 
 Exemplo:
 ```bash

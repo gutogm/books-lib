@@ -1,4 +1,4 @@
-const axios = requie('axios');
+const axios = require('axios');
 
 const URL = `${process.env.API_URL}/books`;
 

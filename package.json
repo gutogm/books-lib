@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon tests/books.test.js"
+    "test": "nodemon tests/books.test.js",
+    "linter": "eslint --quiet '**/*.js'"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0"
   }
 }
